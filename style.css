@@ -1,0 +1,49 @@
+
+#appInterface {
+    text-align: center;
+    height: 200px;
+}
+
+#appInterface ul {
+    list-style-type: none;
+    float: right;
+}
+
+button {
+    width: 100px;
+}
+
+.channel {
+    height: 100px;
+    margin: 5px;
+}
+
+.channel > li {
+    display: inline;
+    padding-top: 30px;
+    float: left;
+    width: 33%;
+}
+
+.channel > li > img {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+.notChannel {
+    background:  lightgray;
+}
+
+.offline {
+    background: lightcoral
+}
+
+.online {
+    background: lightskyblue
+}
+
+.hide {
+    display: none !important;
+    visibility: hidden !important;
+}
